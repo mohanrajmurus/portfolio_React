@@ -1,0 +1,34 @@
+.social-media-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.social-media-links h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+.social-media-links p span{
+    color: #C770F0;
+}
+.social-media-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.social-media-items li a {
+    padding: 10px;
+    font-size: 1.5rem ;
+}
+
+@media(min-width:767px){
+    .social-media-links h1 {
+        font-size: 2.5rem;
+    }
+    .social-media-items li a{
+        font-size: 1.8rem;
+    }
+}

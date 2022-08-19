@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .social-media-items li a {
+    font-size: small;
+    
+}
+.footer p {
+    font-size: small;
+}
+
+
+
+@media(min-width:767px){
+    .footer{
+        flex-direction: row;
+    }
+
+    .footer p:nth-last-child(2){
+        position: absolute;
+        left: 45%;
+    }
+}

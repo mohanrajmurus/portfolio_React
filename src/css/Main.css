@@ -1,0 +1,54 @@
+.self-intro-message{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.left h1 {
+    text-align: center;
+    font-size: 2.0rem;
+    font-weight: normal;
+    padding: 20px 0;
+}
+.left h1 span{
+    font-size: 2.0rem;
+    color: #C770F0;
+}
+.left div p{
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 20px;
+}
+.self-intro span{
+    color: #C770F0;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+}
+.avatar img{
+    width: 200px;
+}
+
+@media(min-width:767px){
+    .self-intro-message{
+        flex-direction: row;
+    }
+    .left h1 {
+        font-size: 2.6rem;
+    }
+    .left h1 span{
+        font-size: 2.6rem;
+    }
+    .left div p{
+        font-size: 1.4rem;
+    }
+    .self-intro span{
+        font-size: 1.4rem;
+    }
+    .avatar img{
+        width: 300px;
+    }
+}
